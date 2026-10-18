@@ -1,5 +1,10 @@
 
-document.getElementById("clickMe").onclick = function () 
+document.getElementById("randomAttacker").onclick = function () 
 { 
-  alert('hello!'); 
+  alert('Attack!'); 
+};
+
+document.getElementById("randomDefender").onclick = function () 
+{ 
+  alert('Defense!'); 
 };
